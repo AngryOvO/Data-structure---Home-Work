@@ -10,6 +10,8 @@ struct student //구조체 student 선언
 
 int main() //메인함수 시작
 {
+    printf("[-----[정하용][2018038025]-----]\n\n");
+    
     struct student pst; //구조체변수 pst 선언
 
     printf("size of student = %ld\n", sizeof(struct student)); //구조체의 크기 출력

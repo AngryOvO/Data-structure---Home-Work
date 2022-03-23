@@ -8,6 +8,8 @@ int i; //int형 전역변수 i 선언
 
 void main(void) //메인함수 시작
 {
+    printf("[-----[정하용][2018038025]-----]\n\n");
+    
     for(i=0; i < MAX_SIZE; i++) //0부터 99까지 100번 반복
         input[i] = i; // 배열에 인덱스값과 같은 크기의 숫자를 할당 ex) input[0] = 0; input[1] = 1;
 
